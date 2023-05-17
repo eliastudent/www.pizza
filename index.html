@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Domino's Pizza</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Ordering a pizza</h1>
+	</header>
+    <div class="container">
+        <img class="pizza" src="pizza.jpg" alt="pizza mashu mashu">
+        <img class="pizza2" src="pizza2.jpg" alt="pizza mashu mashu">
+        <img class="pizza3" src="pizza3.jpg" alt="pizza mashu mashu">
+
+      </div> 
+      <table>
+          <tr>
+            <th>price</th>
+            <th>product</th>
+          </tr>
+            <tr>
+                <td>10$</td>
+                <td>Plain dough </td>
+            </tr>
+            <tr>
+                <td>$15</td>
+                <td>Full dough </td>
+            </tr>
+            <tr>
+                <td>$5</td>
+                <td>thin crust </td>
+            </tr>
+          <tr>
+              <td>$30</td>
+              <td>personal pizza</td>
+          </tr>
+          <tr>
+              <td>$45</td>
+              <td>Family pizza  </td>
+          </tr>
+          <tr>
+              <td>$55</td>
+              <td>huge pizza </td>
+          </tr>
+          <tr>
+            <td>$10</td>
+            <td>Extra cheese</td>
+          </tr>
+          <tr>
+            <td>$5</td>
+            <td>mushrooms</td>
+          </tr>
+          <tr>
+            <td>$5</td>
+            <td>green olives</td>
+        </tr>
+        <tr>
+            <td>$5</td>
+            <td>blacks olives</td>
+        </tr>
+        <tr>
+            <td>$5</td>
+            <td>Peppers</td>
+        </tr>
+        <tr>
+          <td>$5</td>
+          <td>Onion</td>
+        </tr>
+        <tr>
+          <td>$5</td>
+          <td>Tomatoes</td>
+        </tr>
+
+      </table>
+         
+	<main>
+        <hr>
+		<section>
+            <h2>Choose a type of dough:</h2>
+			<form>
+				<label><input type="radio"id="Plain" name="dough" value="10" checked> Plain</label><br>
+				<label><input type="radio"id="full" name="dough" value="15"> full</label><br>
+				<label><input type="radio"id="thin" name="dough" value="5"> thin</label><br>
+			</form></section>
+		<section>
+            <hr>
+            <h2>Choose a type of pizza:</h2>
+			<form>
+				
+				<label><input type="radio"id="S" name="pizza" value="35"> personal</label><br>
+                <label><input type="radio"id="M" name="pizza" value="45"checked> Family</label><br>
+				<label><input type="radio"id="XL" name="pizza" value="55"> huge</label><br>
+
+			</form>
+		</section>
+        <hr>
+		<section>
+            <h2>Choose extras:</h2>
+
+            <form>
+				<label><input type="checkbox"id="extra cheese" name="topping" value="10" > Extra cheese</label><br>
+				<label><input type="checkbox"id="mushrooms" name="topping" value="5"> mushrooms</label><br>
+				<label><input type="checkbox"id="green olives" name="topping" value="5"> green olives</label><br>
+                <label><input type="checkbox"id="blacks olives" name="topping" value="5"> blacks olives</label><br>
+				<label><input type="checkbox"id="Peppers" name="topping" value="5"> Peppers</label><br>
+				<label><input type="checkbox"id="Onion" name="topping" value="5"> Onion</label><br>
+				<label><input type="checkbox"id="Tomatoes" name="topping" value="5"> Tomatoes</label><br>
+			</form>
+		</section>
+<!-- כפתור הזמן -->
+        <button onclick="openOrderForm()">order</button>
+	</main>
+	<footer>
+		<p>&copy;2023 Pizza order</p>
+	</footer>
+</body>
+<script src="my-jss.js"></script>
+</html>

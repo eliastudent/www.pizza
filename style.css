@@ -1,0 +1,89 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+main {
+    margin: 20px;
+    }
+    
+    section {
+    margin-bottom: 20px;
+    }
+    
+    form {
+    margin: 10px;
+    }
+    
+    label {
+    display: block;
+    margin-bottom: 5px;
+    }
+    
+    button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    }
+    
+    footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    }
+    
+    footer p {
+    margin: 0;
+    }
+    
+    /* Responsive design */
+    main {
+        margin: 10px;
+    }
+    
+    button {
+        font-size: 20px;
+        padding: 10px 25px;
+    }
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 25vh; /* Set height to fill the viewport */
+      }
+      .pizza {
+        width: 175px;
+        height: auto;
+      }
+      table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      th, td {
+        padding: 10px;
+        text-align: center;
+      }
+      .image-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 500px; /* כמה גבוהה תהיה התמונה */
+      }
+      
+      img {
+        height: 100%;
+        width: auto;
+        margin: 0 10px; /* יצירת מרווח בין התמונות */
+      }
+      
